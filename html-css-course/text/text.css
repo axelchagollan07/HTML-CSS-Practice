@@ -1,0 +1,908 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#youtube {
+    max-width: 25px;
+    max-height: 25px;
+    margin-top: 40px;
+}
+
+#apple {
+    max-width: 25px;
+    max-height: 25px;
+    margin-top: 50px;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+.view {
+    font-size: 14px; 
+    color: rgb(96, 96, 96);
+    margin-top: 5px;
+}
+
+.channel {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 30px;
+}
+
+.description {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 30px;
+    width: 280px;
+    line-height: 20px;
+}
+
+.fooder {
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding: 18px 20px 18px 20px;
+    text-align: center;
+}
+
+#shop {
+    cursor: pointer;
+}
+
+#shop:hover {
+    text-decoration: underline;
+}
+
+.tahoma {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.arial1 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.arial2 {
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.verdana-title {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.verdana-subtitle {
+    font-family: verdana;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.verdana-content {
+    font-family: Verdana;
+    font-size: 16px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.verdana-button {
+    font-family: verdana;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(3, 162, 3);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.center-title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+.center {
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}
+
+.center-link {
+    font-family: Arial;
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
+
+.center-link:hover {
+    text-decoration: underline;
+}
+
+.apple {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#new {
+    font-size: 14px;
+    color: orange;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#product {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+
+}
+
+#title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+#price {
+   color: gray; 
+}
+
+#buy {
+    display: block;
+    margin-left: 45.5%;
+    margin-right: 54.5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 7px 20px 7px 20px;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    border-radius: 45%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.exchange {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#dollar {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#usa {
+    font-size: 13px;
+    color: gray;
+}
+
+#change {
+    font-size: 16px;
+    color: rgb(0, 146, 0);
+    margin-top: 6px;  
+}
+
+#hour {
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    margin-top: 6px; 
+    margin-bottom: 20px;
+}
+
+#deploy {
+    color: red;
+}
+
+.codeCamp {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+#from {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#email {
+    color: gray;
+    font-weight: 100;
+}
+
+#messaje {
+    margin-top: 10px;
+    width: 500px;
+}
+
+#fooder {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#email2 {
+    color: rgb(0, 166, 255);
+    cursor: pointer;
+}
+
+#email2:hover {
+    text-decoration: underline;
+}
+
+.img-one {
+    width: 200px;
+    border-radius: 10%;
+}
+
+.img-two {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-three {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.search_bar {
+    border: solid 0.5px gray;
+    border-radius: 3px;
+}
+
+.linkedin {
+    font-family: Arial;
+    font-size: 12px;
+    color: gray;
+}
+
+#header {
+    margin-bottom: 5px;
+}
+
+#linkedin_bar {
+    width: 292px;
+    height: 18px;
+    color: black;
+    cursor: text;
+}
+
+#linkedin_button {
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    padding: 12px 108px 12px 108px;
+    cursor: pointer;
+}
+
+.twitter_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.twitter_bar {
+    width: 250px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 16px;
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.twitter_button {
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(0, 170, 255);
+    color: white;
+    padding: 6px 15px 6px 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.red_cube {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.green_circle {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.question {
+    border: solid 1px black;
+    width: 300px;
+    height: 90px;
+    margin: 20px;
+}
+
+.question_p {
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.question_button1 {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.question_button2 {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.youtube_banner {
+    width: 400px;
+    height: 130px;
+    border: none;
+    background-color: rgb(50, 50, 50);
+    margin: 20px;
+
+}
+
+.banner_title {
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    padding-top: 22px;
+    padding-left: 15px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.banner_content {
+    font-family: Arial;
+    font-size: 16px;
+    display: block;
+    margin-top: 14px;
+    padding-left: 15px;
+    color: rgb(167, 167, 167);
+}
+
+.twitter {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 5px rgba(0, 0, 0, 0.438);
+    width: 380px;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.catbook {
+
+    height: 320px;
+    border: none;
+    box-shadow: 1px 2px 3px 3px rgba(104, 104, 104, 0.463);
+
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.catbook_img {
+    height: 180px;
+    width: 200px;
+    padding: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.catbook_name {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.catbook_friend {
+    font-family: Arial;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 6px;
+    color: rgb(95, 95, 95);
+}
+
+.catbook_add {
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+    height: 35px;
+    width: 120px;
+    margin-left: 10px;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.google {
+    height: 220px;
+    width: 500px;
+    margin: 20px;
+    
+}
+
+.google_img {
+    height: auto;
+    width: 250px;
+    display: block;
+    padding-left: 125px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.google_bar {
+    font-family: Arial;
+    font-size: 16px;
+    border: none;
+    padding-left: 15px;
+    margin-left: 25px;
+    border-radius: 20px;
+    box-shadow:1px 1px 1px 3px rgba(0, 0, 0, 0.192);
+    width: 450px;
+    height: 30px;
+    display: block;
+}
+
+.google_button1 {
+    font-family: Arial;
+    font-size: 16px;
+    border: none;
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(229, 229, 229);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.google_button2 {
+    font-family: Arial;
+    font-size: 16px;
+    border: none;
+    margin-top: 25px;
+    margin-left: 12px;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(229, 229, 229);
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+.profile_img {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.twitter_description {
+    font-family: arial;
+    font-size: 14px;
+    width: 150px;
+    padding-left: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 8px;
+}
+
+.twitter-title {
+    font-weight: bold;
+}
+
+.twitter-p {
+    color: rgb(96, 96, 96);
+}
+
+.twitter_profile_button {
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 170, 255);
+    color: white;
+    padding: 6px 15px 6px 15px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.video_youtube {
+    width: 550px;
+    margin-bottom: 10px;
+}
+
+.video_image_youtube {
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.image_youtube {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+.image_youtube:hover {
+    width: 105%;
+    height: auto;
+}
+
+.video_content {
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Roboto;
+    margin-left: 10px;
+}
+
+.video_title_youtube {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.video_channel_youtube, .video_view_youtube {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 0px;
+}
+
+.video_channel_youtube {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.catbook-name {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.catbook-img-profile {
+    width: 50px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 8px;
+
+}
+
+.catbook-friend {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -10px;
+    
+}
+
+.catbook-profile {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.catbook_grip{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gmail_ios {
+    width: 420px;
+    height: 130px;
+    border: none;
+    border-radius: 5px;
+    box-shadow:0px 0px 0px 2px rgba(0, 0, 0, 0.192);
+    font-family: Arial;
+    margin: 20px;
+}
+
+.gmail_ios2 {
+    width: 420px;
+    height: 308px;
+    border: none;
+    border-radius: 5px;
+    box-shadow:0px 0px 0px 2px rgba(0, 0, 0, 0.192);
+    font-family: Arial;
+    margin: 20px;
+}
+
+.gmail_cat {
+    margin-bottom: 20px;
+}
+
+.gmail_inbox {
+    padding: 0 0 0 15px;
+    color: grey;
+    font-size: 14px;
+    height: 40px;
+    align-content: center;
+}
+
+.gmail_messaje {
+    display: flex;
+    flex-direction: row;
+}
+
+.gmail_profile {
+    width: 50px;
+    margin-left: 15px;
+    align-items: center;
+    display: flex;
+}
+.gmail_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gmail_propieties {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 317.5px;
+}
+
+.gmail_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.gmail_hour {
+    font-size: 14px;
+    font-weight: 100;
+    color: gray;
+}
+
+.gmail_affair {
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.gmail_content {
+    font-size: 16px;
+    color: rgb(42, 42, 42);
+}
+
+.post_twitter {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial;
+    width: 380px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6px;
+}
+
+.profile_name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 3px;
+}
+
+.profile_tag {
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.post_messaje {
+    font-size: 14px;
+}
+
+.post_link {
+    display: flex;
+    height: 80px;
+    margin-top: 12px;
+    flex-direction: row;
+    border: solid 0.5px rgb(190, 190, 190);
+    border-radius: 20px;
+}
+
+.space {
+    flex: 2;
+    background-color: rgb(190, 190, 190);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.post_link_content {
+    flex: 5;
+    padding-left: 10px;
+    padding-right: 12px;
+    align-content: center;
+    cursor: pointer;
+}
+
+.link {
+    font-size: 15px;
+    margin: 0;
+    color: rgb(95, 95, 95);
+}
+
+.link_footer {
+    font-size: 15px;
+    margin: 0;
+}
+
+.close_video {
+    position: relative;
+    font-family: arial;
+    margin: 20px;
+}
+
+.video {
+    height: 120px;
+    width: 200px;
+    background-color: gray;
+    
+}
+
+.close {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    font-size: 18px;
+    padding: 4px 9px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.time_position {
+    position: relative;
+}
+
+.time_absolute {
+    position: absolute;
+    left: 152px;
+    bottom: 7px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.clothing {
+    height: 200px;
+    width: 150px;
+    border: solid 3px gray;
+    position: relative;
+    margin: 20px;
+}
+
+.clothing_img {
+    height: 100%;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.clothing_discount {
+    font-size: 12px;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 3px 10px 3px 5px;
+}
+
+.clothing_traslucid {
+    height: 60px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.553);
+    position: absolute;
+    bottom: 0;
+    align-content: center;
+
+}
+
+.clothing_cart {
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

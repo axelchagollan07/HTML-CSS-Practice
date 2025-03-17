@@ -1,0 +1,74 @@
+#pagination {
+    padding: 5px 6px 5px 6px;
+    text-align: center;
+    border-radius: 10%;
+    margin: 5px;
+    background-color: rgb(179, 178, 178);
+    cursor: pointer;
+}
+
+a {
+    margin: 4px;
+    font-weight: bold;
+    color: black;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: green;
+}
+
+#click {
+    margin: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 6px 10px 6px 10px;
+    transition: box-shadow 0.3s, translate 0.3s;
+    cursor: pointer;
+}
+
+#click:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.388);
+}
+
+#click:active {
+    box-shadow: none;
+    translate: 5px 5px 5px;
+}
+
+#stretch {
+    margin: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 6px 10px 6px 10px;
+    transition: padding 0.5s;
+    cursor: pointer;
+}
+
+#stretch:hover {
+    padding: 12px 20px 12px 20px;
+    text-align: center;
+   
+}
+
+#mardding {
+    margin: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 6px 10px 6px 10px;
+    cursor: pointer;
+    transition: margin 0.3s, padding 0.3s;
+}
+
+#mardding:hover {
+    margin: 0px 1px 0px 1px;
+    padding: 6px 14px 6px 14px;
+}

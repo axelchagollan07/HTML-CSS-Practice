@@ -1,0 +1,61 @@
+body {
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    z-index: 1;
+}
+
+.sidebar {
+    background-color: gray;
+    color: black;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    bottom: 0px;
+    width: 70px;
+    z-index: 0;
+}
+
+.absolute {
+    position: absolute;
+    background-color: red;
+    color: white;
+    right: 10px;
+    top: 70px;
+    z-index: 0;
+}
+
+.exercise_one1 {
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    position: static;
+}
+
+.exercise_one2 {
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+
+}
+
+.absolute1 {
+    position: absolute;
+    background-color: red;
+    color: white;
+    right: 10px;
+    bottom: 10px;
+    z-index: 0;
+}
